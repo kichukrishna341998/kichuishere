@@ -1,0 +1,417 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-04T05:57:19.191Z",
+        "line": 15,
+        "name": "calculation of two numbers",
+        "description": "",
+        "id": "test-calculator;calculation-of-two-numbers;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1746600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter 5 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 8
+                }
+              ],
+              "location": "cucu3.first_value1(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 139500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press \"add\" symbol",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"add\"",
+                  "offset": 8
+                }
+              ],
+              "location": "cucu3.equals1(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I have entered 5 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 15
+                }
+              ],
+              "location": "cucu3.second_value1(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I press equal symbol",
+            "match": {
+              "arguments": [
+                {
+                  "val": "equal",
+                  "offset": 8
+                }
+              ],
+              "location": "cucu3.equals1(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The result should be 10 on the screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 21
+                }
+              ],
+              "location": "cucu3.result1(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-07-04T05:57:19.209Z",
+        "line": 16,
+        "name": "calculation of two numbers",
+        "description": "",
+        "id": "test-calculator;calculation-of-two-numbers;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 170600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter 7 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 8
+                }
+              ],
+              "location": "cucu3.first_value1(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press \"subtract\" symbol",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"subtract\"",
+                  "offset": 8
+                }
+              ],
+              "location": "cucu3.equals1(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I have entered 2 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 15
+                }
+              ],
+              "location": "cucu3.second_value1(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I press equal symbol",
+            "match": {
+              "arguments": [
+                {
+                  "val": "equal",
+                  "offset": 8
+                }
+              ],
+              "location": "cucu3.equals1(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89499,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The result should be 5 on the screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 21
+                }
+              ],
+              "location": "cucu3.result1(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-07-04T05:57:19.211Z",
+        "line": 17,
+        "name": "calculation of two numbers",
+        "description": "",
+        "id": "test-calculator;calculation-of-two-numbers;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 151299,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter 3 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 8
+                }
+              ],
+              "location": "cucu3.first_value1(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 251700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press \"multiply\" symbol",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"multiply\"",
+                  "offset": 8
+                }
+              ],
+              "location": "cucu3.equals1(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94099,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I have entered 3 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 15
+                }
+              ],
+              "location": "cucu3.second_value1(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65399,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I press equal symbol",
+            "match": {
+              "arguments": [
+                {
+                  "val": "equal",
+                  "offset": 8
+                }
+              ],
+              "location": "cucu3.equals1(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 339400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The result should be 9 on the screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 21
+                }
+              ],
+              "location": "cucu3.result1(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-07-04T05:57:19.214Z",
+        "line": 18,
+        "name": "calculation of two numbers",
+        "description": "",
+        "id": "test-calculator;calculation-of-two-numbers;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 141599,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter 9 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 8
+                }
+              ],
+              "location": "cucu3.first_value1(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95799,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press \"divide\" symbol",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"divide\"",
+                  "offset": 8
+                }
+              ],
+              "location": "cucu3.equals1(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I have entered 3 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 15
+                }
+              ],
+              "location": "cucu3.second_value1(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I press equal symbol",
+            "match": {
+              "arguments": [
+                {
+                  "val": "equal",
+                  "offset": 8
+                }
+              ],
+              "location": "cucu3.equals1(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105599,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The result should be 3 on the screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 21
+                }
+              ],
+              "location": "cucu3.result1(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Calculator",
+    "description": "calculator functionality",
+    "id": "test-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:cucumberkichu2/cucumberkichu2.feature",
+    "tags": []
+  }
+]
